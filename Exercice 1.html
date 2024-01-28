@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ab{
+            background-color: yellowgreen;
+            width:150px;
+            height:150px;
+            transform-origin: 0 0;
+            transform: skewX(40deg);
+        }
+        .ac{
+            background-color: blue;
+            width:150px;
+            height:150px;
+            transform-origin: 30% 30%;
+            transform: rotateX(50deg)
+        }
+        .ad{
+            background-color: red;
+            width:150px;
+            height:150px;
+            transform-origin: 100% 100% ;
+             transform: perspective(100px) rotate(30deg);
+            backface-visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="ab"></div>
+    <div class="ac"></div><br>
+    <div class="ad"></div>
+</body>
+</html>
